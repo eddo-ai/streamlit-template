@@ -9,9 +9,8 @@ packages = []
 
 [tool.poetry.dependencies]
 python = "^3.11 || 3.11.4"
-langchain = "^0.1.0"
-openai = "^0.27.8"
-streamlit = "^1.30.0"
+langchain = "*"
+streamlit = "*"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
